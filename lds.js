@@ -2,7 +2,7 @@
 
 class DistinctElementsInTwoSets {}
 DistinctElementsInTwoSets.findDistinctElements = (setOne, setTwo) => {
-  System.out.println(
+  console.log(
     "Set 1: " + Arrays.toString(setOne) + ", Set 2: " + Arrays.toString(setTwo)
   );
   let map = new HashMap();
