@@ -1,3 +1,5 @@
+// this is a js version
+
 class DistinctElementsInTwoSets {}
 DistinctElementsInTwoSets.findDistinctElements = (setOne, setTwo) => {
   System.out.println(
