@@ -33,9 +33,8 @@ DistinctElementsInTwoSets.findDistinctElements = (setOne, setTwo) => {
       sum += key;
     }
   }
-  System.out.println("Distinct Elements Sum : " + sum);
-};
-DistinctElementsInTwoSets.main = (args) => {
+
+DistinctElementsInTwoSets.main = (arg) => {
   let setOne = [3, 1, 7, 9];
   let setTwo = [2, 4, 1, 9, 3];
   this.findDistinctElements(setOne, setTwo);
