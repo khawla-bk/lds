@@ -1,7 +1,6 @@
 // this is a js version
-
-class DistinctElementsInTwoSets {}
-DistinctElementsInTwoSets.findDistinctElements = (setOne, setTwo) => {
+var DistinctElementsInTwoSets {}
+DistinctElementsInTwoSets.findDistinctElements = (setOne, setTwo) {
   console.log(
     "Set 1: " + Arrays.toString(setOne) + ", Set 2: " + Arrays.toString(setTwo)
   );
